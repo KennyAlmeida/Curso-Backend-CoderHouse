@@ -40,18 +40,18 @@ class ProductManager {
 const productManager = new ProductManager();
 
 productManager.addProduct({
-  title: "Produto 1",
-  description: "Descrição do Produto 1",
-  price: 19.99,
+  title: "Teclado mecanico",
+  description: "Teclado mecanico com switch blue",
+  price: 190.99,
   thumbnail: "produto1.jpg",
   code: "P1",
   stock: 10,
 });
 
 productManager.addProduct({
-  title: "Produto 2",
-  description: "Descrição do Produto 2",
-  price: 29.99,
+  title: "Mouse gamer",
+  description: "Mouse gamer com 6 botoes",
+  price: 129.99,
   thumbnail: "produto2.jpg",
   code: "P2",
   stock: 5,
